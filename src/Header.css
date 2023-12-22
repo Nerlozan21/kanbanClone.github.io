@@ -1,0 +1,50 @@
+#main_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #FAF9F6;
+}
+
+#toggle_theme {
+  width: 3vw;
+  height: 5.5vh;
+}
+
+#button_container button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: 8vw;
+}
+
+#display{
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 0;
+    border-radius: 5px;
+}
+
+#toggle_theme{
+    background-color: #FAF9F6;
+}
+
+#display, #toggle_theme{
+    border: 0;
+    border-radius: 5px;
+}
+
+#menu,
+#down_arrow {
+  width: 1vw;
+}
+
+#menu{
+    padding-right: 5px;
+}
+
+#down_arrow{
+    padding-left: 5px;
+}
