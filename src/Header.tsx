@@ -5,7 +5,7 @@ import menu from "./assets/noun-toggle-menu-234402.svg";
 
 function Header() {
   return (
-    <div id="main_container">
+    <div id="header_container">
       <div id="button_container">
         <button id="display">
           <img id="menu" src={menu} />
