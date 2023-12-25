@@ -1,0 +1,24 @@
+#data-main-container {
+  display: inline-block;
+  /* border: 2px solid red; */
+}
+
+#data-secondary-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-evenly;
+  /* border: 2px solid green; */
+}
+
+#component-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+  width: 97%;
+  margin: 0 auto;
+  /* min-height: 92vh; */
+  padding: 10px 0;
+}
