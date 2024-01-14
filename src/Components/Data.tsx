@@ -17,7 +17,7 @@ const CardData = () => {
         alert("Error fetching data");
       }
     }
-    fetchData(); // Call fetchData when the component mounts or data state changes
+    fetchData();
   }, []);
 
   return (
@@ -28,7 +28,7 @@ const CardData = () => {
             <div id="component-wrapper" key={ticket.id}>
               <div id="status-grouping-section-main">
                 <div id="container-main">
-                  <div id="left"></div>  {/* filtered data header*/}
+                  <div id="left"></div>
                   <div id="right"></div>
                 </div>
               </div>
@@ -42,11 +42,6 @@ const CardData = () => {
                   <div id="bottom-line">{ticket.tag}</div>
                 </div>
               </div>
-              {/* <p id="ticket-id">{ticket.id}</p> */}
-              {/* <p id="ticket-title">{ticket.title}</p> */}
-              {/* <p id="ticket-status">{ticket.status}</p>
-              <p id="ticket-tag">{ticket.tag}</p>
-              <p id="ticket-userId">{ticket.userId}</p> */}
             </div>
           ))}
         </div>
